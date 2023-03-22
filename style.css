@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Стилі для калькулятора */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.calculator h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.calculator input[type="text"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.calculator span {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.calculator .result {
+    margin-top: 30px;
+}
+
+.calculator .result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.calculator .result span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.calculator .result .result-inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.calculator .result .result-inputs span {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.calculator .result .result-inputs input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
